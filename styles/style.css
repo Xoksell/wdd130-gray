@@ -94,3 +94,19 @@ footer a {
   color: #F5F5FA;
   text-decoration: none;
 }
+.video-box {
+  background-color: #ffffff;
+}
+
+.video-box p {
+  color: #080A18;
+  font-weight: bold;
+}
+
+.video-box::before {
+  content: "▶";
+  display: block;
+  font-size: 30px;
+  color: #080A18;
+  margin-bottom: 10px;
+}
