@@ -150,3 +150,99 @@ body {
       grid-template-columns: 1fr;
     }
   }
+
+/* Merch Page CSS */
+  .merch_hero {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .hero_top p {
+    max-width: 460px;
+    margin-left: 20px;
+  }
+
+  .hero_top h1 {
+    margin-left: 20px;
+  }
+
+  #cart_button {
+    display: inline-block;
+    padding: 12px 20px;
+    margin: 10px 10px 0 0;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    display: block;
+    background-color: #FF2A52;
+    width: fit-content;
+    text-align: center;
+  }
+
+  .merch_grid {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+
+  #hoodies, #mugs {
+    border: 2px solid #23F4D0;
+    border-radius: 10px;
+    text-align: center;
+  }
+
+  #t_shirts, #bundles {
+    border: 2px solid #8A2CFF;
+    border-radius: 10px;
+    text-align: center;
+  }
+
+  #stickers {
+    border: 2px solid #FF2A52;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  #hats {
+    border: 2px solid #FFD24A;
+    border-radius: 10px;
+    text-align: center;
+  }
+
+  #shop_by_category {
+    margin-top: 20px;
+  }
+
+  .merch_grid p {
+    color: #F5F5FA;
+  }
+
+  .featured_merch_grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 15px;
+  }
+
+  .feature {
+    text-align: center;
+    border: 2px solid #FFD24A;
+    border-radius: 10px;
+  }
+
+  .feature p {
+    color: #ff2a52;
+    font-weight: bold;
+  }
+
+  #parent_note {
+    border: 2px solid #23F4D0;
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+  }
+
+  #parent_note h1 {
+    color: #23F4D0;
+  }
